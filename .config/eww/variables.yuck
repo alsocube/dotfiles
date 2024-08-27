@@ -1,0 +1,94 @@
+;;=================================================================;;
+;;===================         Variable          ===================;;
+;;=================================================================;;
+
+(defpoll workspace :interval "1s"
+"scripts/workspace")
+
+(defpoll wifistat :interval "1s"
+"scripts/wlan main")
+
+(defpoll wifistat2 :interval "1s"
+"scripts/wlan tooltip")
+
+(defpoll bluez :interval "1s"
+"scripts/wlan bluetooth")
+
+(defpoll brightness :interval "1s" 
+"scripts/bright bar")
+
+(defpoll brightone :interval "1s" 
+"scripts/bright one")
+
+(defpoll vol :interval "1s"
+"scripts/getvol vol")
+
+(defpoll vols :interval "1s"
+"scripts/getvol vols")
+
+(defpoll getmedia :interval "1s"
+"scripts/getmedia short")
+
+(defpoll getmediafull :interval "1s"
+"scripts/getmedia full")
+
+(defpoll mem :interval "1s"
+"scripts/mem")
+
+(defpoll time :interval "1s"
+"scripts/date fulldate")
+
+(defpoll timetip :interval "1s"
+"scripts/date timetip")
+
+(defpoll battstatus :interval "1s"
+"scripts/battery battstatus")
+
+(defpoll battprcnt :interval "1s"
+"scripts/battery battprcnt")
+
+(defpoll playpause :interval "1s"
+"scripts/music")
+
+(defpoll bigtime :interval "1s"
+"date '+%H:%M:%S'")
+
+(defpoll bigdate :interval "1s"
+"date '+%A, %B %d'")
+
+(defpoll usage_gpu :interval "1s"
+"scripts/usagegpu")
+
+(defpoll gpu_temp :interval "1s"
+"scripts/gpu_temp")
+
+(defpoll cpu_temp :interval "1s"
+"scripts/cpu_temp")
+
+(defpoll whoami :interval "50s"
+"whoami")
+
+(defpoll hostname :interval "50s"
+"cat /etc/hostname")
+
+(defpoll dashhour :interval "20s"
+"date '+%H'")
+
+(defpoll numvol :interval "1s"
+"scripts/numvol")
+
+(defvar hyprlock "scripts/hyprlock")
+
+(defvar boxdashpower false)
+
+(defvar volbar false)
+
+(defvar bribar false)
+
+(defpoll acws1 :interval "1s" "scripts/workspace acws1")
+
+(defpoll acws2 :interval "1s" "scripts/workspace acws2")
+
+(defpoll acws3 :interval "1s" "scripts/workspace acws3")
+
+(defpoll acws4 :interval "1s" "scripts/workspace acws4")
