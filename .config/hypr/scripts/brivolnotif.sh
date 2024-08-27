@@ -1,5 +1,7 @@
 #!/bin/sh
 
+#courtesy of ericmurphyxyz https://github.com/ericmurphyxyz
+
 vol="$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | tr -dc '0-9' | sed 's/^0\{1,2\}//')"
 bri="$(brightnessctl -m | awk -F, '{print substr($4, 0, length($4)-1)}')"
 
