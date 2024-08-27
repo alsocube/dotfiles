@@ -6,11 +6,11 @@ but if you insisted...
 
 # Some of Dependencies used
 
-[hyprland](https://hyprland.org/)
-[rofi](https://github.com/davatorium/rofi)
-[elkowar's wacky widgets](https://github.com/elkowar/eww)
-[dunst](https://github.com/dunst-project/dunst)
-[neovim](https://github.com/neovim/neovim/)
+[hyprland](https://hyprland.org/)<br>
+[rofi](https://github.com/davatorium/rofi)<br>
+[elkowar's wacky widgets](https://github.com/elkowar/eww)<br>
+[dunst](https://github.com/dunst-project/dunst)<br>
+[neovim](https://github.com/neovim/neovim/)<br>
 
 # My Custom Hyprland Shortcut
 
