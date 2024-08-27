@@ -12,14 +12,14 @@ but if you insisted...
 [dunst](https://github.com/dunst-project/dunst)
 [neovim](https://github.com/neovim/neovim/)
 
-# Some of My Custom Hyprland Shortcut
+# My Custom Hyprland Shortcut
 
-SUPER+SHIFT+left/right  = move 1 workspace to the left/right
-SUPER+Q                 = terminal
-ALT+F4                  = kill active window
-ALT+R                   = rofi
-ALT+TAB                 = special workspace
-SUPER+SHIFT+L.Mouse     = move window
-SUPER+INSERT            = screenshot entire screen
-SUPER+SHIFT+INSERT      = screenshot a region
+SUPER+SHIFT+left/right  = move 1 workspace to the left/right<br>
+SUPER+Q                 = terminal<br>
+ALT+F4                  = kill active window<br>
+ALT+R                   = rofi<br>
+ALT+TAB                 = special workspace<br>
+SUPER+SHIFT+L.Mouse     = move window<br>
+SUPER+INSERT            = screenshot entire screen<br>
+SUPER+SHIFT+INSERT      = screenshot a region<br>
 SUPER+D                 = toggle a dashboard
