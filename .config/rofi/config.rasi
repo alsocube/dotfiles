@@ -1,0 +1,19 @@
+configuration {
+  modes: [ combi ];
+  combi-modes: [ window, drun, run ];
+}
+//@theme "paper-float"
+
+//@theme "/usr/local/share/rofi/themes/material.rasi"
+
+//@theme "/usr/local/share/rofi/themes/android_notification.rasi"
+
+//@theme "/usr/local/share/rofi/themes/fancy.rasi"
+
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+//@theme "/home/alsocube/.local/share/rofi/themes/rounded-gray-dark.rasi"
+
+//@theme "/home/alsocube/.local/share/rofi/themes/windows11-list-dark.rasi"
+
+@theme "/home/alsocube/.local/share/rofi/themes/rounded-gray-dark.rasi"
